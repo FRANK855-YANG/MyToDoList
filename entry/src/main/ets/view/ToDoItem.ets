@@ -6,7 +6,7 @@ export default struct ToDoItem {
   private content: string
   @Prop isDone: boolean
   @Link itemsGroup: Array<ItemGroupBean>
-//AAAAAAAAAAAAAAAAAA
+
   @Builder labelIcon(icon) {
     Image(icon)
       .objectFit(ImageFit.Contain)

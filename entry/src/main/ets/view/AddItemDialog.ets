@@ -1,5 +1,5 @@
 import { CommonConstants } from '../common/constant/CommonConstant'
-// AAAAAAAA
+
 @CustomDialog
 export default struct AddTargetDialog {
   @State item: string = ''
