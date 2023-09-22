@@ -1,5 +1,5 @@
 import ItemGroupBean from '../common/bean/ItemGroupBean'
-
+// b最终修改
 export class DataModel {
   itemsGroup: Array<ItemGroupBean> = [
     {
