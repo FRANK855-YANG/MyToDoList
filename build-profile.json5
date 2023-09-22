@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\YANG ZHENYUE\\.ohos\\config\\auto_debug_MyToDoList_com.example.mytodolist_350086000112558542.cer",
+          "storePassword": "0000001BD2334252E04B319F58B521AB1C1DBF33C0D16F7A126C922E26B07AB294C7BC76C19EB83FCB67A9",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC4DAF60E1EE31530F54FAE3DF442293EEFC9694E603614376B24A7B807CC61BBE013D8F3ED23C0",
+          "profile": "C:\\Users\\YANG ZHENYUE\\.ohos\\config\\auto_debug_MyToDoList_com.example.mytodolist_350086000112558542.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\YANG ZHENYUE\\.ohos\\config\\auto_debug_MyToDoList_com.example.mytodolist_350086000112558542.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.0.0(10)",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
