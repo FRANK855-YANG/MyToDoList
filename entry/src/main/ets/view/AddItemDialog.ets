@@ -5,7 +5,7 @@ export default struct AddTargetDialog {
   @State item: string = ''
   private controller?: CustomDialogController
   onClickOk?: (value: string) => void
-  // B
+  // BB
   build() {
     Column() {
       Text('添加待办')
